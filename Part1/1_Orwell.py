@@ -8,4 +8,8 @@
 # Please type in a number: 1984
 # Orwell
 
-# Write your code here:
+# Ask the user for input and convert it to an integer
+number = int(input("Please type in a number: "))
+
+if number == 1984:
+    print("Orwell")
